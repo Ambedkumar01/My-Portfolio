@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="./icon/work_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><h2>My Portfolio </h2> </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="toggle-mode" 
+                 onclick="document.body.classlist.toggle('dark')">
+                <span class="material-icons">brightness_6</span>
+            </div>
+        </nav>
+    </header>
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <form action="submit">
+            <input type="text" placeholder=" Name" required> 
+            <input type="email" placeholder="Email" required>
+            <textarea name="" id="" placeholder="Message"></textarea
+                required>
+                <button type="submit">Submit</button>
+                <br>
+        </form>
+        <div class="map-container">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22077.817482767186!2d93.8451772!3d24.54670345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1755276954858!5m2!1sen!2sin" 
+            width="80%" height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+    </section>
+      
+</body>
+</html>
